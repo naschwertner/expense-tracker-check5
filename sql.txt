@@ -58,5 +58,11 @@ VALUES
 
 
 
+---------------------------------------------------
 
-
+CREATE TABLE metas (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    valor DECIMAL NOT NULL,
+    icone VARCHAR(255) NOT NULL
+);
